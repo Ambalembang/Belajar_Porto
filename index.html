@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TUGAS AKHIR PDSK 2023</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h3>SIMULASI DUA LINTASAN PRODUKSI</h3>
+      <br />
+    </div>
+    <table id="myTable">
+      <tr>
+        <th>Benda Kerja Ke</th>
+        <th>Operasi A Dimulai</th>
+        <th>Random Number A</th>
+        <th>Durasi Waktu A ( Jam )</th>
+        <th>Operasi A Berakhir</th>
+        <th>Benda Kerja A Tersedia</th>
+        <th>Benda Kerja B Tersedia</th>
+        <th>Benda Kerja Menunggu</th>
+        <th>Operator B Menunggu</th>
+        <th>Operasi B Dimulai</th>
+        <th>Random Number B</th>
+        <th>Durasi Waktu B ( Jam )</th>
+        <th>Operasi B Berakhir</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td><input type="number" class="stra" /></td>
+        <td><input type="number" onkeyup="rna(this)" /></td>
+        <td class="DurasiA">0</td>
+        <td class="enda">0</td>
+        <td class="readya">0</td>
+        <td class="readyb">0</td>
+        <td>0</td>
+        <td>0</td>
+        <td class="strb">0</td>
+        <td><input type="number" onkeyup="rnb(this)" /></td>
+        <td class="DurasiB">0</td>
+        <td class="endb">0</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td><input type="number" class="stra_2" /></td>
+        <td><input type="number" onkeyup="rna_2(this)" /></td>
+        <td class="DurasiA_2">0</td>
+        <td class="enda_2">0</td>
+        <td class="readya_2">0</td>
+        <td class="readyb_2">0</td>
+        <td class="kiri_2">0</td>
+        <td class="kanan_2">0</td>
+        <td class="strb_2">0</td>
+        <td><input type="number" onkeyup="rnb_2(this)" /></td>
+        <td class="DurasiB_2">0</td>
+        <td class="endb_2">0</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td><input type="number" class="stra_3" /></td>
+        <td><input type="number" onkeyup="rna_3(this)" /></td>
+        <td class="DurasiA_3">0</td>
+        <td class="enda_3">0</td>
+        <td class="readya_3">0</td>
+        <td class="readyb_3">0</td>
+        <td class="kiri_3">0</td>
+        <td class="kanan_3">0</td>
+        <td class="strb_3">0</td>
+        <td><input type="number" onkeyup="rnb_3(this)" /></td>
+        <td class="DurasiB_3">0</td>
+        <td class="endb_3">0</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td><input type="number" class="stra_4" /></td>
+        <td><input type="number" onkeyup="rna_4(this)" /></td>
+        <td class="DurasiA_4">0</td>
+        <td class="enda_4">0</td>
+        <td class="readya_4">0</td>
+        <td class="readyb_4">0</td>
+        <td class="kiri_4">0</td>
+        <td class="kanan_4">0</td>
+        <td class="strb_4">0</td>
+        <td><input type="number" onkeyup="rnb_4(this)" /></td>
+        <td class="DurasiB_4">0</td>
+        <td class="endb_4">0</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td><input type="number" class="stra_5" /></td>
+        <td><input type="number" onkeyup="rna_5(this)" /></td>
+        <td class="DurasiA_5">0</td>
+        <td class="enda_5">0</td>
+        <td class="readya_5">0</td>
+        <td class="readyb_5">0</td>
+        <td class="kiri_5">0</td>
+        <td class="kanan_5">0</td>
+        <td class="strb_5">0</td>
+        <td><input type="number" onkeyup="rnb_5(this)" /></td>
+        <td class="DurasiB_5">0</td>
+        <td class="endb_5">0</td>
+      </tr>
+    </table>
+    <script src="script.js"></script>
+  </body>
+</html>
